@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="row bg-dark text-light ">
+     <div class="col heading">
+        <h1>Stop Watch</h1>
+    </div>
+    </div>
+<div class="swatch">
+    
+    <div class="pbar">
+            
+    </div>
+    <div class="digits">
+        
+        <h1 id="minutes">0</h1>
+        <h1>:</h1>
+        <h1 id="seconds">0</h1>
+        <h1 >.</h1>
+        <h1 id="miliSeconds">0</h1>
+    </div>
+</div>
+<div class="buttons">
+    <button onclick="start()" id="start"> Start </button>
+    <button onclick="pause()" id="pause">Pause</button>
+    <button onclick="reset()" id="reset">Reset</button>
+    <button onclick="lap()" id="lap"><i class="fab fa-font-awesome-flag"></i></button>
+</div>
+<div class="lapValues">
+    <table id="lapTable">
+    </table>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

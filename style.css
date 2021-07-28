@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&family=Tourney:wght@100&display=swap');
+body{
+    background: #dbe4f1;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.swatch{
+    margin: 20px auto;
+    margin-top: 50px;
+    background: #e6eef7;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* .pbar{
+    height: 270px;
+    width: 270px;
+    border-radius: 100%;
+    
+    padding: 2px auto;
+} */
+
+.digits h1{
+    display: inline-block;
+    margin-top: 120px;
+    font-size: 60px;
+    /* font-family: 'STIX Two Math'; */
+    font-family: 'Tourney', cursive;
+}
+
+.fa-font-awesome-flag{
+    color: rgb(9, 175, 98);
+    font-size: 20px;
+ }
+.buttons button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    background: #e6eef7;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+        /* padding: 50px auto; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border: 1px solid whitesmoke;
+    margin-left: 10px;
+    text-align: center;
+    font-weight: bold;
+
+    transition-property: background, border-radius;
+    transition-duration: .1s, 1s;
+    transition-timing-function: linear, ease-out;
+    transition-delay: 0s, 0s;
+    /* width: 95px; */
+}
+
+.buttons button:hover{
+        background: #a6a7cf;
+        /* border-radius: 20px; */
+        color: white !important;
+      
+}
+.buttons{
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content:space-around; */
+    font-weight: bold;
+    color: cadetblue;
+    
+}
+
+/* #minutes{
+    color: green;
+    
+}
+#seconds{
+    color: blue;
+    
+}
+#miliSeconds{
+    color: red;
+    } */
+#lapTable{
+    margin: 20px auto;
+    padding: 30px auto;
+    text-align: center;
+    /* background-color: teal; */
+    font-size: 50px;
+    font-family: 'Tourney', cursive;
+    
+}
+#lapTable tr:hover {
+    background-color: rgb(13, 58, 80);
+    color: white;
+    font-weight: bold;
+}
+
+.fa-font-awesome-alt{
+    color: red;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    font-size: 10px;
+    }
+@media screen and (max-width: 300px) {
+
+    .swatch{
+        margin: 20px auto;
+        margin-top: 50px;
+        background: #e6eef7;
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+        box-shadow: rgba(10, 10, 10, 0.2) 0px 7px 29px 0px;
+    }
+    .heading{
+        font-size: 10px;
+    }
+    .digits h1{
+        display: inline-block;
+        margin-top: 80px;
+        font-size: 40px;
+        /* font-family: 'STIX Two Math'; */
+        font-family: 'Tourney', cursive;
+    }
+}
